@@ -25,3 +25,24 @@ Cadastra
             position: relative;
             border-radius: 100%;
         }
+
+
+
+na pagina do produto e de carrinho 
+
+<div class="Symbol"><img src="../css/Logo.png" alt="" srcset=""></div>
+
+.Symbol{
+    border-radius: 100px;
+    height: 40px;
+    width: 40px;
+    
+}
+
+
+.Symbol img{
+    border-radius: 100px;
+    height: 40px;
+    width: 40px;
+    
+}
