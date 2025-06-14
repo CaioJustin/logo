@@ -1,0 +1,186 @@
+{
+  "id": "c7a2baf0-b141-4f7e-8e58-5aca35e123e3",
+  "version": "2.0",
+  "name": "teste site lokdecore",
+  "url": "https://lokdecore.com.br/",
+  "tests": [{
+    "id": "6e62b5b1-031a-4744-8573-c57bf931a376",
+    "name": "teste 1 :explorando acervo",
+    "commands": [{
+      "id": "4cbf9392-c040-4e71-987c-97f533ea6d7a",
+      "comment": "",
+      "command": "open",
+      "target": "https://lokdecore.com.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "57be546f-adf8-4838-8659-5d555ed215e8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1004x849",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a7f410fc-93de-4d89-928e-9130d5e50340",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb95fc55-9a35-4f9e-9d89-f69f5ec4929f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9812d31f-0e3d-494f-8a0c-d0595b6340cc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=acervo",
+      "targets": [
+        ["linkText=acervo", "linkText"],
+        ["css=.row > .navbar-nav > .nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'acervo')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/catalogo')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'acervo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0943f3a-e712-4238-a309-8fc3efbc7771",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dep-5",
+      "targets": [
+        ["css=.dep-5", "css:finder"],
+        ["xpath=//div[4]/ul/li[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4b2c9b8-47d8-4838-a244-3c2cecfdeda2",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.dep-5",
+      "targets": [
+        ["css=.dep-5", "css:finder"],
+        ["xpath=//div[4]/ul/li[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f65d712a-55bd-46e5-8278-cd08d797ef07",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Temas e personagens",
+      "targets": [
+        ["linkText=Temas e personagens", "linkText"],
+        ["css=.dep-5 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Temas e personagens')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[241]", "xpath:href"],
+        ["xpath=//div[4]/ul/li[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6c804a0-6e68-4fd1-8fae-4cf6fce30a44",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Os Três Porquinhos",
+      "targets": [
+        ["linkText=Os Três Porquinhos", "linkText"],
+        ["css=.cat-117 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Os Três Porquinhos')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[306]", "xpath:href"],
+        ["xpath=//ul[2]/li[56]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fdc86d21-b1d6-4e3c-836b-a252b18698ce",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Os Três Porquinhos",
+      "targets": [
+        ["linkText=Os Três Porquinhos", "linkText"],
+        ["css=.cat-117 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Os Três Porquinhos')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[306]", "xpath:href"],
+        ["xpath=//ul[2]/li[56]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72b8f90a-8d9b-4138-84d3-1923dcbc192c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Os Três Porquinhos",
+      "targets": [
+        ["linkText=Os Três Porquinhos", "linkText"],
+        ["css=.cat-117 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Os Três Porquinhos')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[306]", "xpath:href"],
+        ["xpath=//ul[2]/li[56]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6224ca06-94a6-4113-a184-ab97bcc5d13f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-12:nth-child(8) .desktop > .list",
+      "targets": [
+        ["css=.col-12:nth-child(8) .desktop > .list", "css:finder"],
+        ["xpath=(//img[@alt='Temático Os Três Porquinhos - Lobo Mau, Feltro G'])[3]", "xpath:img"],
+        ["xpath=//li[8]/app-produto-card-count/div[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea82d4ce-59b7-4a6d-afd4-b65774000230",
+      "comment": "",
+      "command": "click",
+      "target": "css=.x",
+      "targets": [
+        ["css=.x", "css:finder"],
+        ["xpath=//form/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0cf78da2-2dad-4683-ad81-5bbd88172a95",
+      "comment": "",
+      "command": "click",
+      "target": "css=app-footer",
+      "targets": [
+        ["css=app-footer", "css:finder"],
+        ["xpath=//app-footer", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d666666-d256-4224-88c3-62ed14446a2f",
+      "comment": "",
+      "command": "click",
+      "target": "css=app-footer",
+      "targets": [
+        ["css=app-footer", "css:finder"],
+        ["xpath=//app-footer", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48c9d729-92a3-407c-85c3-3995df262cd7",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "34b148f8-87fd-42a6-86f1-1b33e95f0209",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://lokdecore.com.br/"],
+  "plugins": []
+}
